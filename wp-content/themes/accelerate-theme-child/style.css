@@ -71,4 +71,53 @@ div.case-study-images {
 div.case-study-images img {
   margin-bottom: 50px;
   border: 1px solid #dddddd;
+  width: 100%;
+	height: auto;
+}
+
+/* Featured Content On Homepage */
+
+.featured-work .site-content {
+  display: block;
+}
+
+.featured-work h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.featured-work h3 {
+  font-size: 1em;
+}
+
+.featured-work ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-featured-work {
+  width: 100%;
+}
+
+.homepage-featured-work li {
+  float: left;
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Social media menu */
+
+.social-media-navigation ul {
+  list-style-type: none;
+}
+
+.social-media-navigation li {
+  float: left;
+  display: block;
+  padding: 3px;
+  margin: 3px;
 }
